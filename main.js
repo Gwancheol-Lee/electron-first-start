@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron')
+const path = require('path');
 
 // 애플리케이션 브라우저 창 선언 및 index.html 파일 로드하여 생성
 const createWindow = () => {
